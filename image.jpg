@@ -1,1 +1,8 @@
+<img src="factory.jpg" alt="工場" style="width:100%;">
+<div class="hero"></div>
+.hero {
+  background: url("factory.jpg") center/cover no-repeat;
+  height: 400px;
+}
+
 
