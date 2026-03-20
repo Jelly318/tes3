@@ -2,20 +2,129 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>〇〇コンクリート</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background: url("https://images.unsplash.com/photo-1581092919537-4c9e7f9b3c7e") center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 5px solid #007BFF;
+      padding-left: 10px;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 250px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact {
+      background: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>地域密着のコンクリート施工</h1>
-  <p>札幌を中心に高品質な施工を提供します。</p>
 
-  <h2>サービス</h2>
-  <ul>
-    <li>基礎工事</li>
-    <li>外構工事</li>
-    <li>土間コンクリート</li>
-  </ul>
+<header>
+  <h1>〇〇コンクリート</h1>
+  <p>地域密着・高品質施工</p>
+</header>
 
-  <h2>お問い合わせ</h2>
-  <p>090-xxxx-xxxx</p>
+<div class="hero">
+  信頼されるコンクリート施工
+</div>
+
+<section>
+  <h2>サービス内容</h2>
+  <div class="services">
+    <div class="card">
+      <h3>基礎工事</h3>
+      <p>住宅・建物の基礎を高品質に施工します。</p>
+    </div>
+    <div class="card">
+      <h3>外構工事</h3>
+      <p>駐車場やアプローチなど幅広く対応。</p>
+    </div>
+    <div class="card">
+      <h3>土間コンクリート</h3>
+      <p>耐久性の高い仕上がりを提供します。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>施工実績</h2>
+  <p>札幌市内を中心に多数の施工実績があります。</p>
+</section>
+
+<section>
+  <h2>会社概要</h2>
+  <p>会社名：〇〇コンクリート</p>
+  <p>所在地：北海道札幌市</p>
+  <p>TEL：090-xxxx-xxxx</p>
+</section>
+
+<section>
+  <div class="contact">
+    <h2>お問い合わせ</h2>
+    <p>お気軽にご相談ください</p>
+    <p>📞 090-xxxx-xxxx</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 〇〇コンクリート
+</footer>
+
 </body>
 </html>
